@@ -1,0 +1,164 @@
+@font-face {
+    font-family: "Android";
+    src: url('idroid.otf');
+}
+
+figure {
+
+    width: 100%;
+    height: 100vh;
+
+    background-image: url(../img/google.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}  figure::before {
+
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    margin-top: 50vh;
+
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.666), transparent);
+
+}
+figure > section {
+    
+    display: flex;
+    max-width: 666px;
+
+}
+figure > section > h1 {
+
+    font-size: 3.3rem;
+    font-family: 'Android';
+    text-align: center;
+    margin-top: 433px;
+    color: #3DD685;
+    display: inline-block;
+    z-index: 3;
+
+}
+main {
+
+    margin-bottom: 99px;
+
+}
+#genero {
+
+    margin-top: 33px;
+    padding: 16px;
+    font-size: 0.83rem;
+    color: #3DD685;
+    display: flex;
+    align-items: center;
+
+    border-top: solid 1px #666666;
+    border-bottom: solid 1px #666666;
+
+}
+section {
+
+    margin: auto;
+    width: 86vw;
+    max-width: 766px;
+
+}
+#section2 {
+
+    margin-top: 99px;
+    margin-bottom: 33px;
+
+}
+section > article > img {
+
+    margin: auto;
+    margin-top: 33px;
+    width: 100%;
+    border-radius: 1.6vh;
+
+}
+p {
+
+    font-size: 1.3rem;
+    margin-top: 23px;
+
+}
+aside > p {
+
+    color: #666666;
+
+}
+a {
+
+    color: #10bb60;
+
+}
+#section3 {
+
+    background: #ececec;
+    border: solid 1px #d4d4d4;
+    border-radius: 1.6vh;
+    box-shadow: 0 0 9px #d4d4d4;
+    
+}
+#section3 > aside{
+
+    font-size: 0.86rem;
+
+    color: #ececec;
+    background: #3DD685;
+    padding: 16px;
+
+    border-radius: 1.6vh 1.6vh 0px 0px;
+
+}
+#section3 > article {
+
+    padding: 33px;
+
+}
+#section3 > article > p {
+
+    margin-top: 0px;
+    margin-bottom: 33px;
+
+}
+#section3 > article > ul {
+
+    display: inline-block;
+    margin-left: 33px;
+    margin-bottom: 33px;
+    font-size: 1.3rem;
+
+}
+#section4 {
+
+    margin-top: 33px;
+
+}
+footer {
+
+    width: calc(100% - 66px);
+    padding: 33px;
+    color: #ececec;
+    font-size: 1.3rem;
+    display: block;
+    text-align: center;
+
+    background: #3DD685;
+
+} footer > ul {
+
+    margin-top: 33px;
+    margin-left: 33px;
+    list-style-type: none;
+
+} footer > p {
+
+    margin-bottom: 16px;
+
+}

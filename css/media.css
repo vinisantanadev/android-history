@@ -1,0 +1,7 @@
+@media screen and (max-width: 666px) {
+    nav > ul {
+
+        display: none;
+
+    }
+}

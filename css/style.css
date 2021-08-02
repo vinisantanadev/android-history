@@ -1,0 +1,47 @@
+
+* {
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+body {
+
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+    color: #333030;
+    background: #f3f3f3;
+
+}
+
+header {
+    
+    width: calc(100% - 66px);
+    height: 23px;
+    margin: auto;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 33px;
+
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.166), transparent);
+
+}
+nav {
+
+    margin: auto;
+
+}
+nav > ul > li {
+
+    display: inline-block;
+    margin-right: 33px;
+    z-index: 3;
+
+}
+.navlink {
+
+    font-weight: bold;
+    color: white;
+
+}
