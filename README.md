@@ -6,4 +6,4 @@ Este website foi desenvolvido durante o curso de HTML & CSS do canal Curso em Vi
 
 ---
 
-<img src="https://github.com/vinisantanadev/primeiro-site/blob/main/preview-2.png"></img>
+<img src="https://github.com/vinisantanadev/android-history/blob/main/preview-2.png"></img>
